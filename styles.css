@@ -1,6 +1,55 @@
-*{
+:root {
+  --color-principal: #0055ff;
+  --color-secundario: #2c5097;
+  --color-terciario: rgb(255, 255, 255);
+  --color-cuaternario: #000000;
+  --color-quintario: rgb(240, 153, 14);
+  --titulares: 50px;
+  --subtitulares: 30px;
+  --texto: 20px;
+  --texto-pequeño: 15px;
+}
+body, nav {
+  background-image: url('ruta/a/tu/imagen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0055ff, #2c5097);
+}
+nav {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu{
+  padding-right: 30px;
+  font-weight: bold;
+}
+nav .menu ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+nav .menu ul li a {
+  color:var(--color-terciario);
+}
+nav .menu ul li:hover {
+  transform: scale(1.2);
+  list-style: none;
+}
+nav .menu ul li:hover a {
+  color: var(--color-quintario);
+  font-weight: bold;
 }
