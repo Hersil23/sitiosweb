@@ -51,7 +51,7 @@ nav .menu ul li:hover a {
 }
 
 header {
-  padding: 20px;
+  padding: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -60,7 +60,7 @@ header {
 
 header img {
   border: 7px solid var(--color-secundario);
-  border-radius: 30%;
+  border-radius: 42%;
 }
 header img:hover
 {
@@ -71,7 +71,11 @@ header div h1,
 header div h2,
 header div p {
   text-align: left;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  
+
 }
 header div h1 {
   font-size: var(--titulares);
