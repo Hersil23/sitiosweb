@@ -1,18 +1,14 @@
 
 @media (max-width: 768px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  header img {
-    display: block;
-    margin: 0 auto;
-    max-width: 80vw;
-    height: auto;
-  } header > div {
-    width: 100%;
-    margin-bottom: 10px;
+nav div ul li a {
+    display: none;
   }
-}
+  .logo {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    grid-template-columns: 1fr;
+  }
 }
