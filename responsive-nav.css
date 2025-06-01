@@ -11,4 +11,30 @@ nav div ul li a {
   header {
     grid-template-columns: 1fr;
   }
+  header img {
+    width: 80%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: none;
+
+  }
+}
+@media (max-width: 480px) {
+  nav div ul li a {
+    display: none;
+  }
+  .logo {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    grid-template-columns: 1fr;
+  }
+  header img {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
 }
