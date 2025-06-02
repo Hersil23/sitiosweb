@@ -1,2 +1,1 @@
-# sitiosweb
-pagina de venta de sitios web
+Desarrollo de sitios web.
