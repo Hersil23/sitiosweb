@@ -120,7 +120,8 @@ header div h1 {
 
 .servicios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin: 15px;
   gap: 20px;
 }
 .servicios div{

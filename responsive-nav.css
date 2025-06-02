@@ -18,36 +18,38 @@ nav div ul li a {
     padding-bottom: 40px;
     border: none;
   }
-  main 
-  {
+  main{
+  
     grid-template-columns: 1fr;
   }
   .servicios {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-size: medium;
 }
 }
 @media (max-width: 480px) {
   nav div ul li a {
     display: none;
   }
-  .logo {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-  }
-  header {
-    grid-template-columns: 1fr;
-  }
-  header img {
-    width: 100%;
-    height: auto;
-    gap: 20px;
-  }
-.servicios {
+.logo {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  grid-template-columns: 1fr;
+}
+header img {
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+.servicios {
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin: 15px;
   gap: 20px;
 }
 }
