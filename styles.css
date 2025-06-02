@@ -83,6 +83,13 @@ header img:hover
   transform: scale(1.2);
   transition: 0.3s;
 }
+.box {
+  animation: rotate 3s infinite;}
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
 header div h1,
 header div h2,
 header div p {
