@@ -9,7 +9,6 @@
   --texto: 20px;
   --texto-pequeño: 15px;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
   margin: 0;
@@ -97,8 +96,6 @@ header div p {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  
-
 }
 header div h1 {
   font-size: var(--titulares);
@@ -119,4 +116,34 @@ header div h1 {
   background: linear-gradient(to right, var(--color-secundario), var(--color-principal));
   color: var(--color-terciario);
   transform: scale(1.2);
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.servicios div{
+  background-color: var(--color-principal);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: justify;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.servicios div:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-secundario);
+}
+
+.servicios h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+
+}
+.servicios p {
+  margin-bottom: 15px;
+
 }
