@@ -1,6 +1,6 @@
 :root {
   --color-principal: rgb(158, 187, 245);
-  --color-secundario: rgb(50, 102, 206);
+  --color-secundario: rgb(13, 80, 216);
   --color-terciario: rgb(255, 255, 255);
   --color-cuaternario: hsl(0, 0%, 0%);
   --color-quintario: rgb(196, 124, 8);
@@ -21,6 +21,22 @@
 
 body {
   background: linear-gradient(to right, var(--color-principal), var(--color-secundario));
+}
+.body{
+  background: linear-gradient(to right, var(--color-secundario), var(--color-principal));
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 nav {
   color: white;
