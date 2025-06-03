@@ -19,8 +19,7 @@ nav div ul li a {
     border: none;
   }
   main{
-  
-    grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   }
   .servicios {
   display: flex;
@@ -39,12 +38,17 @@ nav div ul li a {
   align-items: center;
 }
 header {
+  display: grid;
   grid-template-columns: 1fr;
 }
 header img {
   width: 100%;
   height: auto;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding
+
+
 }
 .servicios {
   display: grid;
