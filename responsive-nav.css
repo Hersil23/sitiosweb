@@ -46,10 +46,11 @@ header img {
   height: auto;
   display: grid;
   grid-template-columns: 1fr;
-  padding
-
-
+  /* Add the correct padding property or remove this line if not needed */
 }
+
+
+
 .servicios {
   display: grid;
   grid-template-columns: 1fr ;
