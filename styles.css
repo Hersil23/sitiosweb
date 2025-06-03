@@ -117,7 +117,19 @@ header div h1 {
   color: var(--color-terciario);
   transform: scale(1.2);
 }
-
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.titulo-principal {
+  animation: slideIn 1s ease-in-out;
+}
 .servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
